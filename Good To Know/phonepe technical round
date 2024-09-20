@@ -1,0 +1,182 @@
+1.	How does a server get its IP address - DHCP
+
+
+
+2.	What are subnets
+
+
+
+3.	What does /29 subnet means 
+
+
+
+4.	How do determine static or dynamic IP Address
+
+
+
+5.	For a virtual server how to configure its IP address
+
+
+
+6.	How to check open ports on a linux server - netstat
+
+
+
+7.	If some port is not listening, how will you find it out? 
+
+
+
+8.	What is the use of port 22 - ssh
+
+
+
+9.	Can any other port be used instead of port 22 for ssh 
+
+
+
+10.	What is port 80 and port 443 used for - http and https
+
+
+
+11.	What is the difference between HTTP and HTTPS
+
+
+
+12.	How is the validity of HTTPS ensured? What is TLS/SSL
+
+
+
+13.	Once server is configured what checks need to be ensured
+
+
+
+14.	What is a Firewall, explain firewalld command
+
+
+
+15.	Explain overall Linux Boot Process
+
+
+
+16.	How does a kernel initialize
+
+
+
+17.	What is init process
+
+
+
+18.	Why we need targets
+
+
+
+19.	What is a hard link and a soft link in linux
+
+
+
+20.	Why hard links don’t get deleted even if the original file is deleted
+
+
+
+21.	What is iNode
+
+
+
+22.	What is Sticky Bit, how to set sticky bit, what is its use case
+
+
+
+23.	How to check permissions of files and directories ->
+ ls -l
+
+
+
+24.	How to know if sticky bit is turned on for a file/directory
+
+
+
+25.	If permission of a file is “1777” what does that mean?
+
+
+
+26.	How to remove sticky bit?
+
+
+
+27.	How to check size of a directory
+
+
+
+28.	What is the difference between “du” and “df”
+
+
+
+29.	Which is faster, “du” or “df”
+
+
+
+30.	From where they fetch the results (size)
+
+
+
+31.	What are some of the crontab alternatives to automates tasks
+
+
+
+32.	Explain RAID, which configuration of RAID is to be used to increase performance
+
+
+
+33.	How do you store passwords in vault, what kind of encryption do you use
+
+
+
+34.	If you want to login to a server using passwordless authentication, which file would you configure?
+
+
+
+35.	From where will you get the authorized key?
+
+
+36.	Write a Python script to take input as age, and based on the input if age is >=18 print “adult”, if age is <18 print “not an adult”.
+
+
+
+37.	How many controls in Python?
+
+
+
+38.	What can be used instead of many “if-else” statements
+
+
+
+39.	Experience with Mysql
+
+
+
+40.	Do you have any questions for me?
+
+
+Round 3 – practical’s : 
+
+Questions - 
+Task 1. Given a nginx log file, parse the logs and find the count of 2xx, 3xx, 4xx and 5xx along with their percentage ratio.
+
+
+
+
+Task 2. Write a disk monitoring script that sends a warning alert email at 85% and critical alert at 95%.
+
+
+
+
+Task 3. Setup a secure dummy website using nginx.
+
+
+
+Task 4. Write a hello world webapp deployed using containers which is only exposed on container network. It needs to be accompanied with another container which can expose it on the host network allowing the webapp to be accessible on the browser on port 443.
+
+
+
+Task 5. We are unable to ssh via “phonepe” user on this machine, please look into it.
+
